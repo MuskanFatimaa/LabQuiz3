@@ -1,0 +1,119 @@
+/* Add these styles to center the form vertically */
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Style the background image container */
+.bg-image {
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+  padding-right: 30px;
+}
+
+/* Style the form container */
+.form-container {
+  display: flex;
+  background-color: #f1f1f1;
+  padding: 50px;
+  border: 1px solid #ccc;
+  padding-top: 50px;
+  justify-content: center;
+  padding-left: 50px;
+}
+
+/* Center the form elements */
+.form-container form {
+  text-align: center;
+}
+
+/* Center the form title */
+.form-container h1 {
+  text-align: center;
+}
+
+/* Set a max-width for the form */
+.form-container {
+  max-width: 400px;
+  width: 100%;
+}
+
+/* Your existing CSS styles */
+* {
+  box-sizing: border-box;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity: 1;
+}
+.xyz {
+  display: flex;
+  align-items: center;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+button::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+      width: 100%;
+  }
+}
